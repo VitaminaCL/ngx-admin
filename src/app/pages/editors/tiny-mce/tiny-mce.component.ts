@@ -8,7 +8,12 @@ import { Component } from '@angular/core';
         Tiny MCE
       </nb-card-header>
       <nb-card-body>
-        <ngx-tiny-mce></ngx-tiny-mce>
+        <editor [init]="{
+          base_url: '/tinymce',
+          suffix: '.min',
+          plugins: 'lists advlist',
+          toolbar: 'undo redo | bold italic | bullist numlist outdent indent'
+        }"></editor>
       </nb-card-body>
     </nb-card>
   `,

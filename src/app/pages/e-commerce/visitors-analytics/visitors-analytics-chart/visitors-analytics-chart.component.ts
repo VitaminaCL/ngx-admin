@@ -220,11 +220,14 @@ export class ECommerceVisitorsAnalyticsChartComponent implements AfterViewInit, 
 
   onChartInit(echarts) {
     this.echartsIntance = echarts;
+    this.resizeChart();
   }
 
   resizeChart() {
     if (this.echartsIntance) {
-      this.echartsIntance.resize();
+      setTimeout(() => {
+        this.echartsIntance.resize();
+      }, 0);
     }
   }
 

@@ -183,11 +183,14 @@ export class ElectricityChartComponent implements AfterViewInit, OnDestroy {
 
   onChartInit(echarts) {
     this.echartsIntance = echarts;
+    this.resizeChart();
   }
 
   resizeChart() {
     if (this.echartsIntance) {
-      this.echartsIntance.resize();
+      setTimeout(() => {
+        this.echartsIntance.resize();
+      }, 0);
     }
   }
 

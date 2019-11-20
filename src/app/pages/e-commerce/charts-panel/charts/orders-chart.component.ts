@@ -26,8 +26,8 @@ export class OrdersChartComponent implements AfterViewInit, OnDestroy, OnChanges
   echartsIntance: any;
   option: any;
 
-  ngOnChanges(): void {
-    if (this.option) {
+  ngOnChanges(changes: any): void {
+    if (!changes['ordersChartData'].isFirstChange() && this.option) {
       this.updateOrdersChartOptions(this.ordersChartData);
     }
   }
@@ -289,6 +289,7 @@ export class OrdersChartComponent implements AfterViewInit, OnDestroy, OnChanges
 
   onChartInit(echarts) {
     this.echartsIntance = echarts;
+    this.updateOrdersChartOptions(this.ordersChartData);
   }
 
   resizeChart() {
