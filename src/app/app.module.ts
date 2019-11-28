@@ -12,13 +12,8 @@ import { ThemeModule } from './@theme/theme.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import {
-  NbChatModule,
-  NbDatepickerModule,
-  NbDialogModule,
   NbMenuModule,
   NbSidebarModule,
-  NbToastrModule,
-  NbWindowModule,
 } from '@nebular/theme';
 import { ExampleModule } from './pages/example/example.module';
 
@@ -29,9 +24,7 @@ import { ExampleModule } from './pages/example/example.module';
     BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
-
     ThemeModule.forRoot(),
-
     NbSidebarModule.forRoot(),
     NbMenuModule.forRoot(),
     CoreModule.forRoot(),
