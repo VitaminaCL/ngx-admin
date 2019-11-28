@@ -15,7 +15,6 @@ export class LoginComponent {
   messages: string[] = [];
   user: any = {};
   submitted: boolean = false;
-  rememberMe = false;
 
   constructor(protected cd: ChangeDetectorRef,
               protected router: Router) {

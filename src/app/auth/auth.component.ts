@@ -23,9 +23,7 @@ import { Location } from '@angular/common';
     </nb-layout>
   `,
 })
-export class AuthComponent implements OnDestroy {
-
-  private alive = true;
+export class AuthComponent {
 
   constructor(protected location: Location) {
   }
@@ -33,9 +31,5 @@ export class AuthComponent implements OnDestroy {
   back() {
     this.location.back();
     return false;
-  }
-
-  ngOnDestroy(): void {
-    this.alive = false;
   }
 }
