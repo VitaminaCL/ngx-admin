@@ -1,0 +1,63 @@
+@import '../../@theme/styles/themes';
+
+@include nb-install-component() {
+  display: block;
+  width: 100%;
+  max-width: 35rem;
+  margin: auto;
+
+  form {
+    width: 100%;
+  }
+
+  .label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .title {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+
+  .sub-title {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .caption {
+    margin-top: 0.5rem;
+  }
+
+  .alert {
+    text-align: center;
+  }
+
+  .form-control-group {
+    margin-bottom: 2rem;
+  }
+
+  .form-control-group.accept-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+
+  .label-with-link {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .forgot-password {
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .another-action {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+}
+

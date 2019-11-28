@@ -15,7 +15,6 @@ import {
   NbMenuModule,
   NbSidebarModule,
 } from '@nebular/theme';
-import { ExampleModule } from './pages/example/example.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -28,7 +27,6 @@ import { ExampleModule } from './pages/example/example.module';
     NbSidebarModule.forRoot(),
     NbMenuModule.forRoot(),
     CoreModule.forRoot(),
-    ExampleModule,
   ],
   bootstrap: [AppComponent],
 })

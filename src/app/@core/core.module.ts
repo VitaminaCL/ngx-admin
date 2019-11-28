@@ -7,7 +7,7 @@ import {
   AnalyticsService,
   LayoutService,
   StateService,
-} from './utils';
+} from './services';
 
 
 export const NB_CORE_PROVIDERS = [
