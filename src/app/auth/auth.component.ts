@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Location } from '@angular/common';
 
 @Component({
-  selector: 'ngx-auth',
+  selector: 'vitamina-auth',
   styleUrls: ['./auth.component.scss'],
   template: `
     <nb-layout>

@@ -105,13 +105,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "ngx",
+      "vitamina",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "ngx",
+      "vitamina",
       "kebab-case"
     ],
     "ban": [

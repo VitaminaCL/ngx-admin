@@ -25,9 +25,9 @@
   @include nb-theme-global();
   @include nb-auth-global();
 
-  @include ngx-layout();
+  @include vitamina-layout();
   // loading progress bar
-  @include ngx-pace-theme();
+  @include vitamina-pace-theme();
 
   @include nb-overrides();
 };

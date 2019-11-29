@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-one-column-layout',
+  selector: 'vitamina-one-column-layout',
   styleUrls: ['./one-column.layout.scss'],
   template: `
     <nb-layout windowMode>
       <nb-layout-header fixed>
-        <ngx-header></ngx-header>
+        <vitamina-header></vitamina-header>
       </nb-layout-header>
 
       <nb-sidebar class="menu-sidebar" tag="menu-sidebar" responsive>
@@ -18,7 +18,7 @@ import { Component } from '@angular/core';
       </nb-layout-column>
 
       <nb-layout-footer fixed>
-        <ngx-footer></ngx-footer>
+        <vitamina-footer></vitamina-footer>
       </nb-layout-footer>
     </nb-layout>
   `,
