@@ -25,7 +25,6 @@
     }
   },
   "dependencies": {
-    "@agm/core": "^1.1.0",
     "@angular/animations": "^9.1.0",
     "@angular/cdk": "^9.2.0",
     "@angular/common": "^9.1.0",
@@ -50,10 +49,10 @@
     "roboto-fontface": "0.10.0",
     "rxjs": "6.5.4",
     "rxjs-compat": "6.5.4",
-    "tslib": "^1.10.0",
+    "tslib": "^1.11.1",
     "typeface-exo": "0.0.61",
     "web-animations-js": "^2.3.2",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.0",
@@ -62,11 +61,10 @@
     "@angular/language-service": "9.1.0",
     "@compodoc/compodoc": "^1.1.11",
     "@types/d3-color": "1.2.2",
-    "@types/googlemaps": "^3.39.3",
     "@types/jasmine": "3.5.10",
     "@types/jasminewd2": "2.0.8",
-    "@types/node": "^12.11.1",
-    "codelyzer": "^5.1.2",
+    "@types/node": "^13.9.5",
+    "codelyzer": "^5.2.2",
     "conventional-changelog-cli": "2.0.31",
     "husky": "3.1.0",
     "jasmine-core": "3.5.0",
