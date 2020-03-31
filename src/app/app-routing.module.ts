@@ -4,12 +4,12 @@ import { NgModule } from '@angular/core';
 const routes: Routes = [
   {
     path: 'auth',
-    loadChildren: () => import('app/auth/auth.module')
+    loadChildren: () => import('./auth/auth.module')
       .then(m => m.AuthModule),
   },
   {
     path: 'pages',
-    loadChildren: () => import('app/pages/pages.module')
+    loadChildren: () => import('./pages/pages.module')
       .then(m => m.PagesModule),
   },
   { path: '', redirectTo: 'pages', pathMatch: 'full' },

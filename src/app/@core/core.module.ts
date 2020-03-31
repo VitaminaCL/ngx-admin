@@ -7,6 +7,7 @@ import {
   AnalyticsService,
   LayoutService,
   StateService,
+  SeoService,
 } from './services';
 
 
@@ -23,6 +24,7 @@ export const NB_CORE_PROVIDERS = [
   AnalyticsService,
   LayoutService,
   StateService,
+  SeoService,
 ];
 
 @NgModule({

@@ -23,10 +23,10 @@ import {
     BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
-    ThemeModule.forRoot(),
     NbSidebarModule.forRoot(),
     NbMenuModule.forRoot(),
     CoreModule.forRoot(),
+    ThemeModule.forRoot(),
   ],
   bootstrap: [AppComponent],
 })
